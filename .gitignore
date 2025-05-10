@@ -1,0 +1,38 @@
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MacOS hidden files
+.DS_Store
+
+# VSCode project files
+.vscode/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# Excel and simulation outputs
+*.xlsx
+!data/.gitkeep
+!output/.gitkeep
+!plots/.gitkeep
+
+# Ignore all contents of these folders except .gitkeep
+data/*
+output/*
+plots/*
+
+# Logs
+*.log
+
+# Backup files
+*~
+*.bak
